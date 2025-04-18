@@ -1,15 +1,11 @@
 <?php
 
-$hostname = "127.0.0.1:8889";
-$username = "root";
-$password = "root";
-$database = "abbrs";
+require_once("config.php");
+$cfg = $mysql;
 
 $db = new mysqli(
-  $hostname,
-  $username, 
-  $password, 
-  $database
+  $cfg["hostname"],
+  $cfg["username"], 
+  $cfg["password"], 
+  $cfg["database"]
 );
-
-echo(var_dump(getenv()));
