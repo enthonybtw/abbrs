@@ -259,7 +259,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   height: 483px;
-  width: 1120px;
+  width: 100%;
   align-items: center;
   flex-shrink: 0;
 }
@@ -270,13 +270,13 @@ footer .carousel {
   justify-content: center;
   align-items: center;
   height: 171px;
-  width: 1120px;
+  width: 100%;
   margin: 30px 0;
 }
 
 footer .carousel .background {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   z-index: -1;
   text-align: center;
