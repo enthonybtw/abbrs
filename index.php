@@ -11,9 +11,9 @@
     <section class="layout">
       <header>
         <nav>
-          <a href="#" class="about nav-link">О проекте</a>
-          <a href="#" class="home logo">ABBRS</a>
-          <a href="#" class="add nav-link">Добавить</a>
+          <a href="/" class="about nav-link">О проекте</a>
+          <a href="/" class="home logo">ABBRS</a>
+          <a href="/" class="add nav-link">Добавить</a>
         </nav>
         <section class="search active has-text">
           <div class="wrapper">
@@ -36,97 +36,16 @@
         <section class="stats">
           <div class="count">
             <span>Сокращений</span>
-            <h1>1 716</h1>
+            <h1 id="abbrs-count-wrapper">1 716</h1>
           </div>
           <div class="check">
             <span>На проверке</span>
-            <h1>101</h1>
+            <h1>19</h1>
           </div>
         </section>
         <section class="new-abbrs">
           <h3 class="title">Свеженькие сокращения</h3>
-          <div class="wrapper">
-            <div class="item">
-              <h2 class="name">ASAP</h2>
-              <h3 class="spacer">—</h3>
-              <div class="about">
-                <h3 class="desc">As soon as possible</h3>
-                <p class="translation">Как можно скорее</p>
-              </div>
-            </div>
-            <div class="item">
-              <h2 class="name">XMAS</h2>
-              <h3 class="spacer">—</h3>
-              <div class="about">
-                <h3 class="desc">Christmas</h3>
-                <p class="translation">Рождество</p>
-              </div>
-            </div>
-            <div class="item">
-              <h2 class="name">GIMME</h2>
-              <h3 class="spacer">—</h3>
-              <div class="about">
-                <h3 class="desc">Give me</h3>
-                <p class="translation">Дай мне</p>
-              </div>
-            </div>
-            <div class="item">
-              <h2 class="name">LOL</h2>
-              <h3 class="spacer">—</h3>
-              <div class="about">
-                <h3 class="desc">Laughing out load</h3>
-                <p class="translation">Громко смеяться</p>
-              </div>
-            </div>
-            <div class="item">
-              <h2 class="name">OMG</h2>
-              <h3 class="spacer">—</h3>
-              <div class="about">
-                <h3 class="desc">Oh my God</h3>
-                <p class="translation">Ооо, Боже мой</p>
-              </div>
-            </div>
-            <div class="item">
-              <h2 class="name">LMAO</h2>
-              <h3 class="spacer">—</h3>
-              <div class="about">
-                <h3 class="desc">Laughing my ass out</h3>
-                <p class="translation">Дико смеяться</p>
-              </div>
-            </div>
-            <div class="item">
-              <h2 class="name">XOXO</h2>
-              <h3 class="spacer">—</h3>
-              <div class="about">
-                <h3 class="desc">Hugs and kisses</h3>
-                <p class="translation">Обнимаю и целую</p>
-              </div>
-            </div>
-            <div class="item">
-              <h2 class="name">IMHO</h2>
-              <h3 class="spacer">—</h3>
-              <div class="about">
-                <h3 class="desc">In my humble opinion</h3>
-                <p class="translation">По моему скромному мнению</p>
-              </div>
-            </div>
-            <div class="item">
-              <h2 class="name">DUNNO</h2>
-              <h3 class="spacer">—</h3>
-              <div class="about">
-                <h3 class="desc">Don't know</h3>
-                <p class="translation">Не знаю</p>
-              </div>
-            </div>
-            <div class="item">
-              <h2 class="name">B4</h2>
-              <h3 class="spacer">—</h3>
-              <div class="about">
-                <h3 class="desc">Before</h3>
-                <p class="translation">До</p>
-              </div>
-            </div>
-          </div>
+          <div class="wrapper" id="new-abbrs-wrapper"></div>
         </section>
       </main>
       <footer>
@@ -150,9 +69,9 @@
                 <span class="desc">Словарь сокращений английского языка</span>
               </div>
               <div class="nav-col">
-                <a href="#" class="col-link">Главная</a>
-                <a href="#" class="col-link">О проекте</a>
-                <a href="#" class="col-link">Добавить</a>
+                <a href="/" class="col-link">Главная</a>
+                <a href="/" class="col-link">О проекте</a>
+                <a href="/" class="col-link">Добавить</a>
               </div>
             </div>
             <div class="contacts">
@@ -178,6 +97,7 @@
       </footer>
     </section>
     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/api.js"></script>
     <script src="js/main.js"></script>
     <script src="js/search.js"></script>
   </body>
