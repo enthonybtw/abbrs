@@ -54,6 +54,10 @@ class AbbrsCard {
       Abbreviation.source,
       Abbreviation.editor
     );
+    jQuery(document).prop(
+      "title",
+      `ABBRS / ${String(Abbreviation.name).toUpperCase()}`
+    );
   }
 }
 
